@@ -1,0 +1,132 @@
+@font-face {
+    font-family: "My Font";
+    src: url('../fonts/Signika-Semibold.ttf');
+}
+
+@media (max-width: 767px) {
+
+    img#brand {
+        position: absolute;
+        width: 80pt;
+        top: -5pt;
+        left: 50%;
+        -ms-transform: translate(-50%, -50%);
+        -webkit-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+    }
+}
+
+@media (min-width: 768px) {
+    img#brand {
+        position: absolute;
+        top: -20px;
+        width: 160px;
+    }
+
+    .jumbotron {
+        margin-top: 50px;
+    }
+}
+
+@media (min-width: 992px) {
+}
+
+@media (min-width: 1200px) {
+}
+
+nav .container {
+    position: relative;
+}
+
+nav.navbar {
+    background-color: #fefefe;
+
+}
+
+.navbar-toggle {
+    border: none;
+}
+
+.navbar-toggle:focus {
+    background-color: transparent;
+}
+
+.app-menu {
+    padding: 0 50px;
+    margin: 0;
+    float: right;
+}
+
+.in .app-menu,
+.collapsing .app-menu {
+    float: none;
+    padding: 0;
+    text-align: center;
+    color: blue;
+}
+
+.app-menu li {
+    display: inline;
+}
+
+.app-menu a {
+    color: #9f9f9f;
+    display: inline-block;
+    text-decoration: none;
+    padding: 15px;
+    font-family: "My Font", sans-serif;
+    font-size: 18px;
+    line-height: 75px;
+    border-bottom: 5px solid #fefefe;
+}
+
+.app-menu a:hover {
+    color: white;
+    background-color: #00b3ee;
+    line-height: 75px;
+    box-sizing: border-box;
+    border-bottom: 5px solid blueviolet;
+}
+
+main ul {
+    padding: 20px;
+}
+
+main li {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.container .jumbotron {
+    text-align: center;
+    border-radius: 0;
+}
+
+.jumbotron ul li {
+    list-style-type: none;
+    overflow: hidden;
+}
+
+.jumbotron a {
+    color: white;
+    font-weight: bold;
+    font-family: inherit;
+    font-size: 16px;
+}
+
+.jumbotron a:nth-child(2) {
+    letter-spacing: 1px;
+}
+
+.jumbotron button {
+    /*width: 240px;*/
+    margin-top: 12px;
+}
+
+.jumbotron span {
+    float: left;
+    font-size: 20px;
+}
+
+
+
